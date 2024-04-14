@@ -1,0 +1,249 @@
+{
+    "app_name": "Certified Medical Biller Exam Prep",
+    "chapters": [
+        {
+            "id": 1,
+            "name": "Labore.",
+            "app_id": 1,
+            "created_at": "2024-04-06T22:33:43.000000Z",
+            "updated_at": "2024-04-06T22:33:43.000000Z"
+        },
+        {
+            "id": 2,
+            "name": "Quia voluptate.",
+            "app_id": 1,
+            "created_at": "2024-04-06T22:33:43.000000Z",
+            "updated_at": "2024-04-06T22:33:43.000000Z"
+        },
+        {
+            "id": 3,
+            "name": "Maiores ea.",
+            "app_id": 1,
+            "created_at": "2024-04-06T22:33:43.000000Z",
+            "updated_at": "2024-04-06T22:33:43.000000Z"
+        },
+        {
+            "id": 4,
+            "name": "Et.",
+            "app_id": 1,
+            "created_at": "2024-04-06T22:33:43.000000Z",
+            "updated_at": "2024-04-06T22:33:43.000000Z"
+        },
+        {
+            "id": 5,
+            "name": "Laborum delectus.",
+            "app_id": 1,
+            "created_at": "2024-04-06T22:33:43.000000Z",
+            "updated_at": "2024-04-06T22:33:43.000000Z"
+        }
+    ],
+    "questions": {
+        "Labore.": [
+            {
+                "id": 1,
+                "question": "Architecto dolorem quo architecto qui distinctio. Placeat illum dicta quibusdam. Quisquam sit itaque veritatis praesentium minus. Eligendi incidunt dolores ut et quidem occaecati.",
+                "chapter_id": 1,
+                "created_at": "2024-04-06T22:33:43.000000Z",
+                "updated_at": "2024-04-06T22:33:43.000000Z",
+                "answers": [
+                    {
+                        "id": 1,
+                        "answer": "Atque sint mollitia hic aperiam voluptas praesentium est. Aut corrupti alias harum est sed quod. Nihil itaque suscipit unde tempora sapiente est doloremque.",
+                        "is_answer": 0,
+                        "question_id": 1,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 2,
+                        "answer": "Deleniti voluptate eos dolorem corporis qui deleniti voluptas. Autem facilis exercitationem deleniti excepturi. Officia placeat soluta molestiae beatae velit.",
+                        "is_answer": 1,
+                        "question_id": 1,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 3,
+                        "answer": "Et itaque quia consequatur architecto. Ea saepe ut tempora eligendi molestiae asperiores. Dolores aliquam consequatur non facilis quibusdam error aut. Corporis ratione illum doloremque et deserunt.",
+                        "is_answer": 0,
+                        "question_id": 1,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 4,
+                        "answer": "Voluptas modi odio reiciendis dolorem rerum iure saepe. Blanditiis voluptatem porro veniam dolores. Et labore quos eos.",
+                        "is_answer": 1,
+                        "question_id": 1,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Quasi tenetur soluta praesentium. Vel ipsam harum modi optio. Laudantium ex nobis cum omnis. Accusantium quas aspernatur ut quibusdam suscipit.",
+                "chapter_id": 1,
+                "created_at": "2024-04-06T22:33:43.000000Z",
+                "updated_at": "2024-04-06T22:33:43.000000Z",
+                "answers": [
+                    {
+                        "id": 5,
+                        "answer": "Voluptate ratione qui sequi eum quia. Ut ipsa rerum rerum quia vel. Ut veritatis est minima quia.",
+                        "is_answer": 0,
+                        "question_id": 2,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 6,
+                        "answer": "Itaque occaecati sit voluptas aliquid ex ipsum sed. Odio corrupti cum ea sed. Molestiae dignissimos laudantium dolorem in. Deleniti repellendus sequi aut enim aut.",
+                        "is_answer": 1,
+                        "question_id": 2,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 7,
+                        "answer": "Qui vitae tenetur adipisci animi. Facere velit odit cupiditate. Ut reprehenderit dignissimos animi fugit libero. In facilis aliquid ipsa ipsam perferendis unde.",
+                        "is_answer": 1,
+                        "question_id": 2,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 8,
+                        "answer": "Veritatis iure recusandae voluptatem tempora error doloribus. Voluptatem error officiis dolor doloremque voluptatem. Fugiat eius rerum consectetur ut voluptates magnam distinctio. Mollitia perferendis et et.",
+                        "is_answer": 0,
+                        "question_id": 2,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Ipsa impedit nostrum voluptas eligendi. Est mollitia aut officiis vel sit dolores nostrum.",
+                "chapter_id": 1,
+                "created_at": "2024-04-06T22:33:43.000000Z",
+                "updated_at": "2024-04-06T22:33:43.000000Z",
+                "answers": [
+                    {
+                        "id": 9,
+                        "answer": "Laudantium enim est dolore. Et molestias repellendus fugit dolores ab alias deleniti similique. Sit quia consequatur sunt temporibus velit et laborum. Tempora blanditiis itaque minima sint ut tenetur. Ab autem excepturi eius odit ex officiis.",
+                        "is_answer": 1,
+                        "question_id": 3,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 10,
+                        "answer": "Quia necessitatibus aut deleniti veniam fuga. Distinctio corrupti accusamus dolorem consequatur est molestiae. Molestias amet nam iure saepe et tempora incidunt. Est dolorem dignissimos aut ratione.",
+                        "is_answer": 0,
+                        "question_id": 3,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 11,
+                        "answer": "Blanditiis autem non quam et nemo voluptas. Totam et laborum iure asperiores. Repellat omnis quam natus. Natus enim et libero ad quibusdam quia aut.",
+                        "is_answer": 0,
+                        "question_id": 3,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 12,
+                        "answer": "Saepe dignissimos deleniti aut optio. Qui nemo beatae voluptatem maiores atque. Iusto cumque voluptatem qui occaecati.",
+                        "is_answer": 0,
+                        "question_id": 3,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Ipsam quos saepe perspiciatis odio. Sed autem et dolorem omnis dolor id reiciendis. Quam velit harum libero est explicabo aut placeat.",
+                "chapter_id": 1,
+                "created_at": "2024-04-06T22:33:43.000000Z",
+                "updated_at": "2024-04-06T22:33:43.000000Z",
+                "answers": [
+                    {
+                        "id": 13,
+                        "answer": "Omnis optio ducimus alias harum repellat vel pariatur fugit. Velit illo qui ratione asperiores alias ex. Dolor eum provident corrupti. Dolores aut sed explicabo in omnis.",
+                        "is_answer": 0,
+                        "question_id": 4,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 14,
+                        "answer": "Ea illo ipsa cumque rerum esse quisquam. Vero dignissimos totam aut necessitatibus fuga. A rerum laboriosam eligendi esse nihil velit.",
+                        "is_answer": 0,
+                        "question_id": 4,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 15,
+                        "answer": "Quia facilis sit maxime quasi. Omnis voluptatem delectus sit aut vitae illo. Voluptatum impedit vitae rerum qui recusandae veniam quo aliquid.",
+                        "is_answer": 1,
+                        "question_id": 4,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 16,
+                        "answer": "Et aut quis maiores qui dolores. Repudiandae quis sit distinctio dolores excepturi ducimus. Suscipit dignissimos id mollitia deleniti perspiciatis et voluptas.",
+                        "is_answer": 0,
+                        "question_id": 4,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Repudiandae sed deleniti laborum dolor dolorum. Quibusdam pariatur accusamus adipisci consequatur et. Expedita reprehenderit at earum voluptatem.",
+                "chapter_id": 1,
+                "created_at": "2024-04-06T22:33:43.000000Z",
+                "updated_at": "2024-04-06T22:33:43.000000Z",
+                "answers": [
+                    {
+                        "id": 17,
+                        "answer": "Modi quaerat similique quas dolorem. Voluptas molestiae non et. Ut magni qui aut et nihil neque. Accusantium recusandae vitae excepturi quibusdam. Nemo ipsum dolorem ducimus totam.",
+                        "is_answer": 0,
+                        "question_id": 5,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 18,
+                        "answer": "Veniam voluptas et a dolorem commodi veritatis dignissimos. Rerum eius sed aut rerum quo voluptate molestiae. Facilis animi et et cumque quidem ea. Qui velit voluptates ut ratione natus explicabo.",
+                        "is_answer": 0,
+                        "question_id": 5,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 19,
+                        "answer": "Eos dolorum optio id consequuntur natus optio. Alias quia quos laboriosam ut quisquam. Qui illum recusandae voluptate iste suscipit quas. Qui numquam quo velit libero distinctio a non.",
+                        "is_answer": 1,
+                        "question_id": 5,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    },
+                    {
+                        "id": 20,
+                        "answer": "Mollitia unde autem rem rerum. Iste est modi dolore nulla sunt. Ducimus voluptatum explicabo sed nesciunt dolor id. Error nostrum quibusdam tenetur qui at aliquam. Saepe minus amet error quisquam.",
+                        "is_answer": 1,
+                        "question_id": 5,
+                        "created_at": "2024-04-06T22:33:43.000000Z",
+                        "updated_at": "2024-04-06T22:33:43.000000Z"
+                    }
+                ]
+            }
+        ]
+    }
+}
