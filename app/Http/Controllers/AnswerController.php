@@ -27,7 +27,7 @@ class AnswerController extends Controller
         Answer::create([
             'answer' => $answer_text,
             'is_answer' => $is_answer,
-            'question_id' => $question_id,
+            'question_id' => $question_id
         ]);
 
         return response()->json(['success' => 'success'], 200);

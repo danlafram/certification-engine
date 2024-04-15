@@ -30,9 +30,11 @@ class QuestionController extends Controller
     public function store(Request $request)
     {
         $question_data = $request->input('question');
+        $explanation = $request->input('explanation');
         $question = Question::create([
             'question' => $question_data,
-            'chapter_id' => 1
+            'chapter_id' => 1,
+            'explanation' => $explanation
         ]);
 
         return $question;
