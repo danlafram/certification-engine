@@ -31,7 +31,6 @@ class QuizController extends Controller
                 $index++;
             }
 
-            // $question_data[$chapter->name] = $questions;
             array_push($question_data, $questions);
         }
 

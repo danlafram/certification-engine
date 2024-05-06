@@ -31,6 +31,7 @@ class QuestionController extends Controller
     {
         $question_data = $request->input('question');
         $explanation = $request->input('explanation');
+        // $chapter_id = $request->input('chapter_id'); // WARNING: This may not always be present depending on the situation.
         $question = Question::create([
             'question' => $question_data,
             'chapter_id' => 1,
@@ -51,9 +52,16 @@ class QuestionController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Question $question)
+    public function update(Request $request, string $id, Question $question)
     {
-        //
+        $question = Question::findOrFail($id);
+
+        $question->question = $request->input('question');
+        $question->explanation = $request->input('explanation');
+
+        $question->save();
+        
+        return $question;
     }
 
     /**

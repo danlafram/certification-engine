@@ -32,7 +32,7 @@ class ChapterController extends Controller
         $chapter_data = $request->input('chapter');
         Chapter::create([
             'name' => $chapter_data,
-            'app_id' => 1
+            'app_id' => 2 // WARNING: This is constant right now so expect to have to change
         ]);
 
         return response()->json(['success' => 'success'], 200);

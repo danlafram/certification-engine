@@ -24,13 +24,13 @@ class AnswerController extends Controller
         $is_answer = $request->input('is_answer');
         $question_id = $request->input('question_id');
         
-        Answer::create([
+        $answer = Answer::create([
             'answer' => $answer_text,
             'is_answer' => $is_answer,
             'question_id' => $question_id
         ]);
 
-        return response()->json(['success' => 'success'], 200);
+        return $answer;
     }
 
     /**
@@ -44,9 +44,15 @@ class AnswerController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Answer $answer)
+    public function update(Request $request, string $id, Answer $answer)
     {
-        //
+        $answer = Answer::findOrFail($id);
+
+        $answer->answer = $request->input('answer');
+
+        $answer->save();
+        
+        return $answer;
     }
 
     /**

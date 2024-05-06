@@ -26,10 +26,12 @@ Route::controller(ChapterController::class)->group(function () {
 Route::controller(QuestionController::class)->group(function () {
     Route::get('question/{id}/answers', 'answers');
     Route::post('question', 'store');
+    Route::post('question/{id}', 'update');
 });
 
 Route::controller(AnswerController::class)->group(function () {
     Route::post('answer', 'store');
+    Route::post('answer/{id}', 'update');
 });
 
 Route::controller(QuizController::class)->group(function () {
