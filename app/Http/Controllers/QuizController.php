@@ -22,7 +22,7 @@ class QuizController extends Controller
         $question_data = [];
 
         foreach ($chapters as $chapter) {
-            $questions = Question::where('chapter_id', '=', $chapter->id)->get();
+            $questions = Question::where('chapter_id', '=', $chapter->id)->inRandomOrder()->get();
 
             $index = 0;
             foreach($questions as $question){
