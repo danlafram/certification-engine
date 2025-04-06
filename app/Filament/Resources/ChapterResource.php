@@ -4,6 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\ChapterResource\Pages;
 use App\Filament\Resources\ChapterResource\RelationManagers;
+use App\Models\App;
 use App\Models\Chapter;
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -11,6 +12,7 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class ChapterResource extends Resource
@@ -60,6 +62,15 @@ class ChapterResource extends Resource
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\BulkAction::make('Change app')
+                        ->icon('heroicon-m-pencil-square')
+                        ->form([Forms\Components\Select::make('app_id')->options(App::query()->pluck('name', 'id'))])
+                        ->action(function (Collection $records, array $data) {
+                            foreach($records as $chapter){
+                                $chapter->app_id = $data['app_id'];
+                                $chapter->save();
+                            }
+                        }),
                 ]),
             ]);
     }
