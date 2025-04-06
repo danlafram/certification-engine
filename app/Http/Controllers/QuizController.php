@@ -41,4 +41,34 @@ class QuizController extends Controller
 
         return $response_object;
     }
+
+    public function search(Request $request)
+    {
+        $chapters = App::where('name', '=', $request->input('quiz'))->first()->chapters;
+        $question_data = [];
+
+        if(!isset($chapters)){
+            return abort(404, "Quiz not found");
+        }
+
+        foreach ($chapters as $chapter) {
+            $questions = Question::where('chapter_id', '=', $chapter->id)->inRandomOrder()->get();
+
+            $index = 0;
+            foreach($questions as $question){
+                $answers = $question->answers;
+                $question['answers'] = $answers;
+                $index++;
+            }
+
+            array_push($question_data, $questions);
+        }
+
+        $response_object = (object) [
+            'chapters' => $chapters,
+            'questions' => $question_data
+        ];
+
+        return $response_object;
+    }
 }

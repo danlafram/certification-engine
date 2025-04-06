@@ -43,4 +43,5 @@ Route::controller(AnswerController::class)->group(function () {
 
 Route::controller(QuizController::class)->group(function () {
     Route::get('quiz/{id}', 'quiz');
+    Route::get('search', 'search');
 });
