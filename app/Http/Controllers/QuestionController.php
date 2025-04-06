@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Chapter;
 use App\Models\Question;
 use Illuminate\Http\Request;
 
@@ -32,9 +33,10 @@ class QuestionController extends Controller
         $question_data = $request->input('question');
         $explanation = $request->input('explanation');
         // $chapter_id = $request->input('chapter_id'); // WARNING: This may not always be present depending on the situation.
+        $chapter = Chapter::first();
         $question = Question::create([
             'question' => $question_data,
-            'chapter_id' => 1,
+            'chapter_id' => $chapter->id,
             'explanation' => $explanation
         ]);
 

@@ -4,6 +4,7 @@ namespace App\Filament\Resources;
 
 use App\Filament\Resources\QuestionResource\Pages;
 use App\Filament\Resources\QuestionResource\RelationManagers;
+use App\Models\Chapter;
 use App\Models\Question;
 use Filament\Forms;
 use Filament\Forms\Form;
@@ -11,6 +12,7 @@ use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class QuestionResource extends Resource
@@ -64,6 +66,15 @@ class QuestionResource extends Resource
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
                     Tables\Actions\DeleteBulkAction::make(),
+                    Tables\Actions\BulkAction::make('Change chapter')
+                        ->icon('heroicon-m-pencil-square')
+                        ->form([Forms\Components\Select::make('chapter_id')->options(Chapter::query()->pluck('name', 'id'))])
+                        ->action(function (Collection $records, array $data) {
+                            foreach($records as $question){
+                                $question->chapter_id = $data['chapter_id'];
+                                $question->save();
+                            }
+                        }),
                 ]),
             ]);
     }

@@ -29,10 +29,11 @@ class ChapterController extends Controller
      */
     public function store(Request $request)
     {
-        $chapter_data = $request->input('chapter');
+        $chapter_data = $request->input('name');
+        $app_id = $request->input('app_id');
         Chapter::create([
             'name' => $chapter_data,
-            'app_id' => 2 // WARNING: This is constant right now so expect to have to change
+            'app_id' => $app_id ?? 1 // WARNING: This is constant right now so expect to have to change
         ]);
 
         return response()->json(['success' => 'success'], 200);
